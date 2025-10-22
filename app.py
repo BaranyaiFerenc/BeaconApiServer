@@ -357,7 +357,7 @@ def key():
     return f"<h1>{app.config['SECRET_KEY']}</h1>"
 
 if __name__ == "__main__":
-    with open("database/server-config.json", "r", encoding="utf-8") as f:
+    with open("./database/server-config.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
     if data['server'].get('log_to_file', False):
