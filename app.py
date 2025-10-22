@@ -364,5 +364,5 @@ if __name__ == "__main__":
         logging.basicConfig(filename=data['server']['log_file'], level=logging.INFO)
 
     app.config['SECRET_KEY'] = data['server']['secret_key']  # Reading the secret key from the config file
-    print(data['server']['secret_key'] )
+    logging.info(msg=data['server']['secret_key'])
     app.run(host=data['server']['host'], port=data['server']['port'], debug=data['server']['debug'], threaded=True)
