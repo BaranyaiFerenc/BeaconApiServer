@@ -1,27 +1,17 @@
-# syntax=docker/dockerfile:1.4
-FROM --platform=$BUILDPLATFORM python:3.10-alpine AS builder
+# Use an official lightweight Python image
+FROM python:3.9-slim  
 
-WORKDIR /app
+# Set the working directory
+WORKDIR /app  
 
-COPY requirements.txt /app
-RUN --mount=type=cache,target=/root/.cache/pip \
-    pip3 install -r requirements.txt
+# Copy project files into the container
+COPY . /app  
 
-COPY . /app
+# Install dependencies
+RUN pip install -r requirements.txt  
 
-ENTRYPOINT ["python3"]
-CMD ["app.py"]
+# Expose port 5000 for Flask
+EXPOSE 5000
 
-FROM builder as dev-envs
-
-RUN <<EOF
-apk update
-apk add git
-EOF
-
-RUN <<EOF
-addgroup -S docker
-adduser -S --shell /bin/bash --ingroup docker vscode
-EOF
-# install Docker tools (cli, buildx, compose)
-COPY --from=gloursdocker/docker / /
+# Command to run the app
+CMD ["python", "app.py"]
