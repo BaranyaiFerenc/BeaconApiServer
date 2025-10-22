@@ -353,11 +353,6 @@ def get_camera_configuration():
     return jsonify(success=True, data=data), 200
 
 
-# JUST TEST
-@app.route("/test", methods=["GET"])
-def test():
-    return "<h1>Buzi Geri</h1>"
-
 if __name__ == "__main__":
     with open("database/server-config.json", "r", encoding="utf-8") as f:
         data = json.load(f)
