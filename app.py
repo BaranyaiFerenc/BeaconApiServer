@@ -352,6 +352,9 @@ def get_camera_configuration():
     print(f"Camera configuration by: {request.user}")
     return jsonify(success=True, data=data), 200
 
+@app.route("/key")
+def key():
+    return f"<h1>{app.config['SECRET_KEY']}</h1>"
 
 if __name__ == "__main__":
     with open("database/server-config.json", "r", encoding="utf-8") as f:
