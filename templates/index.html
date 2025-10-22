@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>WebRTC Audio Test</title>
+<style>
+body { font-family: sans-serif; padding: 20px; }
+button { padding: 8px 16px; font-size: 16px; margin: 5px; }
+</style>
+</head>
+<body>
+<h2>WebRTC Audio Test (Browser → Python)</h2>
+
+<label>Peer ID (saját):</label><br/>
+<input id="selfId" value="browser-sender"><br/>
+<label>Target Peer ID (Python hallgató):</label><br/>
+<input id="targetId" value="python-listener"><br/>
+<label>WebSocket URL:</label><br/>
+<input id="wsUrl" value="ws://localhost:5000/ws"><br/>
+
+<button id="startBtn">Start Streaming</button>
+<button id="stopBtn" disabled>Stop</button>
+
+<h3>Remote Audio</h3>
+<audio id="remoteAudio" autoplay></audio>
+
+<pre id="log" style="background:#111;color:#0f0;padding:10px;height:200px;overflow:auto;"></pre>
+
+<script>
+const logEl = document.getElementById("log");
+function log(...args) {
+    logEl.textContent += args.join(" ") + "\n";
+    logEl.scrollTop = logEl.scrollHeight;
+}
+
+let pc, ws, localStream;
+
+document.getElementById("startBtn").onclick = async () => {
+    const selfId = document.getElementById("selfId").value;
+    const targetId = document.getElementById("targetId").value;
+    const wsUrl = 'ws://192.168.64.5:5000/ws';
+
+    ws = new WebSocket(wsUrl);
+
+    ws.onopen = () => {
+        log("[WS] connected");
+        ws.send(selfId); // bemutatkozás
+    };
+
+    ws.onmessage = async (ev) => {
+        const msg = JSON.parse(ev.data);
+        if(msg.type === "answer" && msg.target === selfId){
+            log("[SIG] answer received");
+            await pc.setRemoteDescription({ type: "answer", sdp: msg.sdp });
+        }
+    };
+
+    pc = new RTCPeerConnection({
+        iceServers: [{ urls: "stun:stun.l.google.com:19302" }]
+    });
+
+    pc.onicecandidate = (event) => {
+        if(event.candidate) return; // non-trickle ICE, nem küldünk candidate-t
+    };
+
+    pc.ontrack = (event) => {
+        document.getElementById("remoteAudio").srcObject = event.streams[0];
+        log("[PC] remote track received");
+    };
+
+    localStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    localStream.getTracks().forEach(track => pc.addTrack(track, localStream));
+
+    const offer = await pc.createOffer();
+    await pc.setLocalDescription(offer);
+
+    // várjunk egy rövidet, amíg ICE gathering kész
+    setTimeout(() => {
+        ws.send(JSON.stringify({
+            type: "offer",
+            from: selfId,
+            target: targetId,
+            sdp: pc.localDescription.sdp
+        }));
+        log("[SIG] offer sent");
+    }, 500);
+
+    document.getElementById("startBtn").disabled = true;
+    document.getElementById("stopBtn").disabled = false;
+};
+
+document.getElementById("stopBtn").onclick = () => {
+    if(pc){
+        pc.getSenders().forEach(s => s.track && s.track.stop());
+        pc.close();
+    }
+    if(localStream) localStream.getTracks().forEach(t => t.stop());
+    if(ws && ws.readyState === WebSocket.OPEN) ws.close();
+
+    document.getElementById("startBtn").disabled = false;
+    document.getElementById("stopBtn").disabled = true;
+    log("[PC] stopped");
+};
+</script>
+</body>
+</html>

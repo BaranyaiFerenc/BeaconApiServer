@@ -1,0 +1,20 @@
+{
+    "used-camera": "camera-top",
+    "ScalerCrop": [
+        1152,
+        432,
+        2304,
+        1728
+    ],
+    "Sharpness": 1.9,
+    "ExposureValue": 0.0,
+    "ExposureTime": 20000,
+    "AeExposureMode": 0,
+    "ExposureTimeMode": 0,
+    "AeEnable": true,
+    "AfMode": 0,
+    "Saturation": 1.0,
+    "LensPosition": 2.0,
+    "HdrMode": 0,
+    "Brightness": 0.0
+}
