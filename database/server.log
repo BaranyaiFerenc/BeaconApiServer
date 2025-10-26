@@ -1,2 +1,687 @@
 INFO:werkzeug:127.0.0.1 - - [17/Aug/2025 21:46:05] "POST /login HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [17/Aug/2025 21:46:05] "GET /ping HTTP/1.1" 200 -
+INFO:root:szeszler_david_1234
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.86:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 10:54:43] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 10:54:43] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 10:54:43] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 10:54:53] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 10:54:53] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.86:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\BeaconShell.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\BeaconShell.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\BeaconShell.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\BeaconShell.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:04:39] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:04:46] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:05:07] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:05:42] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:05:42] "[31m[1mPOST /send-image HTTP/1.1[0m" 415 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\BeaconShell.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:06:11] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:06:11] "[31m[1mPOST /send-image HTTP/1.1[0m" 415 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\BeaconShell.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\BeaconShell.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:09:28] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:09:28] "POST /send-image HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:42:56] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:42:56] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:42:56] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:06] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:06] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:16] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:16] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:26] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:26] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:31] "GET /get-messages?deviceId=Beacon_1&since=1970-01-01T00:00:00.000Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:32] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:33] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:34] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:35] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:36] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:36] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:36] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:37] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:38] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:39] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:40] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:41] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:42] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:43] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:44] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:45] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:46] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:46] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:46] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:53] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:53] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:43:53] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:44:03] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:44:03] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:44:13] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:44:13] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:45:16] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:45:16] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:45:16] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:45:26] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:45:26] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:45:36] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:45:36] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:45:46] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:45:46] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:45:56] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:45:56] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:46:06] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:46:06] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:46:16] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:46:16] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:46:20] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:46:20] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:46:20] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:46:23] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:46:30] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:46:30] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:46:40] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:46:40] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:46:50] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:46:50] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:47:00] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:47:00] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:47:10] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:47:10] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:47:20] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:47:20] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:47:30] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:47:30] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:47:53] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:47:53] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:47:57] "[31m[1mGET /get-images?deviceId=camera1 HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:47:57] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:47:57] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:47:57] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:02] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:02] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:03] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:03] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:03] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:03] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:04] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:04] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:07] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:07] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:17] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:17] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:27] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:27] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:37] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:37] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:47] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:47] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:57] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:48:57] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:07] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:07] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:23] "[33mGET /get-latest-image?deviceId=camera1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:23] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:23] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:23] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:26] "[33mGET /get-latest-image?deviceId=camera1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:26] "[33mGET /get-latest-image?deviceId=camera1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:27] "[33mGET /get-latest-image?deviceId=camera1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:27] "[33mGET /get-latest-image?deviceId=camera1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:27] "[33mGET /get-latest-image?deviceId=camera1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:27] "[33mGET /get-latest-image?deviceId=camera1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:27] "[33mGET /get-latest-image?deviceId=camera1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:27] "[33mGET /get-latest-image?deviceId=camera1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:33] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:33] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:43] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:43] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:53] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:49:53] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:50:03] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:50:03] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:50:13] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:50:13] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:50:25] "[31m[1mGET /get-images?deviceId=camera1 HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:50:25] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:50:25] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:50:25] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:50:28] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:50:28] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:50:34] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:50:34] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:50:35] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:50:35] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:51:22] "[31m[1mGET /get-images?deviceId=camera1 HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:51:22] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:51:22] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:51:22] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:51:24] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:51:24] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\testing\\imageUploadTest.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\testing\\imageUploadTest.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\testing\\imageUploadTest.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\testing\\imageUploadTest.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\testing\\imageUploadTest.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\testing\\imageUploadTest.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\testing\\imageUploadTest.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\testing\\imageUploadTest.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\testing\\imageUploadTest.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\testing\\imageUploadTest.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\imageUploadTest.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:44] "[31m[1mGET /get-images?deviceId=camera1 HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:44] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:44] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:44] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:49] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:49] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:51] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:51] "POST /send-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:53] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:53] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:54] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:54] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:55] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:55] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:57] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:56:57] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:00] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:00] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:00] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:00] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:00] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:00] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:15] "[31m[1mGET /get-images?deviceId=camera1 HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:16] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:16] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:16] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:19] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:19] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:26] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:26] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:29] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:29] "POST /send-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:31] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:31] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:32] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:32] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:32] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:32] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:33] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:36] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:36] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:36] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:36] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:36] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:36] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:36] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:36] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:36] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:36] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:37] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:37] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:37] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:37] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:41] "GET /get-messages?deviceId=Beacon_1&since=1970-01-01T00:00:00.000Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:42] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:43] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:43] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:43] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:43] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:43] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:43] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:43] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:43] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:43] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 11:57:44] "GET /get-messages?deviceId=Beacon_1&since=2025-09-04T11:57:35.288Z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:35] "[31m[1mGET /get-images?deviceId=camera1 HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:35] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:35] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:35] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:41] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:41] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:41] "[33mGET /undefined HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:41] "[33mGET /undefined HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:45] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:45] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:52] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:52] "GET /get-images?deviceId=camera1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:52] "[33mGET /undefined HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:52] "[33mGET /undefined HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:56] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:15:56] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:16:05] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:16:05] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:16:16] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:16:16] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:16:26] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:16:26] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:16:36] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:16:36] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:16:46] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:16:46] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:16:56] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:16:56] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:17:06] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:17:06] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:17:21] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:17:21] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:17:26] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:17:26] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:17:36] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:17:36] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:17:46] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:17:46] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:17:56] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:17:56] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:18:06] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:18:06] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:18:16] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:18:16] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:19:25] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:19:25] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.86:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:22:50] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:22:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:23:25] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:23:25] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:13] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:13] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:16] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:16] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:26] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:26] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:36] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:36] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:37] "[35m[1mGET /last-image HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:37] "GET /last-image?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:37] "GET /last-image?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:38] "GET /last-image?__debugger__=yes&cmd=resource&f=console.png&s=7EqZkNd0VdYg0WYYyfhr HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:38] "GET /last-image?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:46] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:46] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:56] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:24:56] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:25:06] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:25:06] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:25:06] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:25:22] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:25:24] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:25:24] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:25:26] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:25:26] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:25:36] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:25:36] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:25:46] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:25:46] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:25:56] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:25:56] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:26:04] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:26:04] "POST /send-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:26:06] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:26:06] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:26:07] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:26:16] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:26:16] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:27:25] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:27:25] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:28:25] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:28:25] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:29:25] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:29:25] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:30:25] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:30:25] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:31:25] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:31:25] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:32:25] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:32:25] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:33:25] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:33:25] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:09] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:09] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:13] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:13] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:13] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:15] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:15] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:16] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:16] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:23] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:23] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:33] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:33] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:35] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:35] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:43] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:34:43] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:35:31] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:35:31] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:35:31] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:35:36] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:35:36] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:35:39] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:35:39] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:35:42] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:35:42] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:35:51] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:35:52] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:36:01] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:36:01] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:08] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:08] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:08] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:11] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:11] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:14] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:14] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:15] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:15] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:18] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:18] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:28] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:28] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:38] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:38] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:43] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:43] "POST /send-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:46] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:46] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:48] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:48] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:49] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:49] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:50] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:50] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:50] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:50] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:50] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:50] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:50] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:50] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:50] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:50] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:58] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:38:58] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:03] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:03] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:03] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:03] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:03] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:03] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:04] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:04] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:04] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:04] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:04] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:04] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:04] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:04] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:04] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:04] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:08] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:08] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:17] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:17] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:17] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:17] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:17] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:17] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:18] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:18] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:18] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:18] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:28] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:28] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:35] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:35] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:35] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:39] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:39] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:40] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:40] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:40] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:40] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:41] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:39:41] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:19] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:19] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:19] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:21] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:21] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:29] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:29] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:39] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:39] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:46] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:46] "POST /send-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:49] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:49] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:49] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:49] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:59] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:40:59] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:41:00] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:41:00] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:41:09] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:41:09] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:41:19] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:41:19] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:41:29] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:41:29] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:41:39] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:41:39] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:41:49] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:41:49] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:41:49] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:42:32] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:42:32] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:42:32] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 12:42:36] "GET /last-image HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug: * Detected change in 'c:\\Users\\baran\\Desktop\\BeaconApiServer\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:szeszler_david_1234
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-068-000
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:10:19] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:10:19] "POST /send-image HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:10:30] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:10:30] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:10:30] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:10:33] "[35m[1mGET /last-image?index=1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:10:40] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:10:40] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:10:44] "[35m[1mGET /last-image?index=1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:10:50] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:10:50] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:11:00] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:11:00] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:11:04] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:11:04] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:11:04] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:11:06] "[35m[1mGET /last-image HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:11:15] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:11:15] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:11:25] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:11:25] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:11:35] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:11:35] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:11:45] "GET /get-devices HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2025 13:11:45] "GET /get-device-info?deviceId=Beacon_1 HTTP/1.1" 200 -

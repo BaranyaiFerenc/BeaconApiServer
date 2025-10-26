@@ -199,23 +199,55 @@ def get_messages():
     print(f"Get messages by user: {request.user} from device ID: {device_id}")
     return jsonify(success=True, data=results), 200
 
-
-# Get the images from the Beacon device
 @app.route("/get-images", methods=["GET"])
 @token_required
 def get_images():
-    device_id = request.args.get('deviceId')
+    device_id = request.args.get("deviceId")
+    last = request.args.get("last")  # pl. 20251026120000
 
     print(f"Get images by user: {request.user} from device ID: {device_id}")
 
-    image_path = f"./uploads/beacon_image.png"
+    uploads_dir = "./uploads"
 
-    if not os.path.exists(image_path):
-        print(f"Image not found: {image_path}")
-        return jsonify(success=False, message="Image not found"), 404
+    if not os.path.exists(uploads_dir):
+        return jsonify(success=False, message="Uploads directory not found"), 404
 
-    return send_file(image_path, mimetype='image/jpeg')
+    # Összegyűjtjük az összes PNG fájlt
+    image_files = [f for f in os.listdir(uploads_dir) if f.lower().endswith(".png")]
 
+    # Csak a fájlnevet (dátumrész) hasonlítjuk össze
+    if last:
+        image_files = [
+            f for f in image_files
+            if f.split(".")[0].isdigit() and f.split(".")[0] > last
+        ]
+
+    if not image_files:
+        return jsonify(success=False, message="No images found"), 404
+
+    # A fájlokat dátum szerint rendezzük (legkorábbitól a legújabbig)
+    image_files.sort()
+
+    # Teljes elérési utak a fájlokhoz
+    image_paths = [os.path.join(uploads_dir, f) for f in image_files]
+
+    print(f"Found {len(image_files)} images to send.")
+
+    # Ha csak egy képet kérnek (pl. a legutolsó), azt is kezeljük
+    if len(image_paths) == 1:
+        return send_file(image_paths[0], mimetype="image/png")
+
+    # Több kép esetén visszaküldjük a fájlneveket JSON-ban
+    return jsonify(success=True, images=image_files)
+
+
+@app.route("/get-image-count", methods=["GET"])
+@token_required
+def get_image_count():
+    uploads_dir = "./uploads"
+    image_files = [f for f in os.listdir(uploads_dir) if f.lower().endswith(".png")]
+
+    return len(image_files)
 
 
 #######################################
@@ -253,6 +285,7 @@ def send_image():
     if not image:
         return jsonify(success=False, message="Image and Device ID are required."), 400
 
+
     try:
         # If the image is in base64 format, e.g. "data:image/png;base64,...."
         if "," in image:
@@ -263,7 +296,7 @@ def send_image():
 
         # Save location (e.g. "uploads" folder)
         os.makedirs("uploads", exist_ok=True)
-        filename = f"uploads/{request.user}_image.png"
+        filename = f"uploads/{datetime.datetime.now().strftime("%Y%m%d%H%M%S")}.png"
 
         with open(filename, "wb") as f:
             f.write(image_bytes)
@@ -351,6 +384,34 @@ def get_camera_configuration():
         data = json.load(f)
     print(f"Camera configuration by: {request.user}")
     return jsonify(success=True, data=data), 200
+
+
+#######################################
+#
+#   HTML Endpoints (Client side)
+#
+#######################################
+
+@app.route("/last-image", methods=["GET"])
+@token_required
+def last_image():
+    image_index = request.args.get('index', default = 1, type = int)
+    uploads_dir = "./uploads"
+
+    if not os.path.exists(uploads_dir):
+        return jsonify(success=False, message="Uploads directory not found"), 404
+
+    # Összegyűjtjük az összes PNG fájlt
+    image_files = [f for f in os.listdir(uploads_dir) if f.lower().endswith(".png")]
+    image_files.sort()
+
+    if image_index > len(image_files):
+        return jsonify(success=False, message=f"Image with index {image_index} not found"), 404
+
+    image_path = os.path.join(uploads_dir, image_files[-image_index])
+    print("Sending image: "+image_path)
+    return send_file(image_path, mimetype='image/png')
+
 
 import os
 

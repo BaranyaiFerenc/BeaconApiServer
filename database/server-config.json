@@ -4,7 +4,7 @@
         "port": 5000,
         "debug": true,
         "secret_key": "szeszler_david_1234",
-        "log_to_file": true,
+        "log_to_file": false,
         "log_file": "database/server.log"
     }
 }

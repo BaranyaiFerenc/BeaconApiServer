@@ -1,4 +1,6 @@
 import argparse
+import base64
+import os
 import requests
 import sys
 
@@ -118,6 +120,48 @@ def ConfigureCamera(username=None, password=None, cameraConfig=None, ask=False):
     token = login(username, password)
     return call_api("/configure-camera", token, "POST", cameraConfig)
 
+
+def SendImage(username=None, password=None, imagePath=None, ask=False):
+    """Elküldi a képet base64-ben a /send-image végpontnak"""
+    if ask:
+        username = input("Enter Username: ")
+        password = input("Enter Password: ")
+        imagePath = input("Image path: ")
+
+    token = login(username, password)
+
+    if not os.path.exists(imagePath):
+        print(f"[Error] File not found: {imagePath}")
+        return
+
+    # Beolvassuk és base64 kódoljuk a képet
+    with open(imagePath, "rb") as img_file:
+        encoded = base64.b64encode(img_file.read()).decode("utf-8")
+
+    payload = {
+        "image": encoded
+    }
+
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json"
+    }
+
+    url = f"{BASE_URL}/send-image"
+
+    resp = requests.post(url, headers=headers, json=payload)
+
+    print(f"[API Call] POST {url} - Status: {resp.status_code}")
+
+    try:
+        print(resp.json())
+        return resp.json()
+    except Exception:
+        print(resp.text)
+        return resp.text
+    
+    
+
 def main():
     parser = argparse.ArgumentParser(description="Beacon API client")
 
@@ -142,6 +186,8 @@ def main():
         GetCameraConfiguration(ask=True)
     elif args.command == "configure-camera":
         ConfigureCamera(ask=True)
+    elif args.command == "send-image":
+        SendImage(ask=True)
 
 if __name__ == "__main__":
     main()

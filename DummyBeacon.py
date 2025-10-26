@@ -18,10 +18,9 @@ while True:
     coreTemp += random.uniform(-0.05, 0.05)
     houseTemp += random.uniform(-0.01, 0.01)
     houseTemp -= 0.002
-    time.sleep(10)
+    time.sleep(5)
 
-    if random.random() < 0.5:
-        BeaconShell.SendMessage(username=username, password=password, deviceId=deviceId, message=f"Hello from DummyBeacon! Message index: {msgIndex}")
-        msgIndex += 1
+    BeaconShell.SendMessage(username=username, password=password, deviceId=deviceId, message=f"Hello from DummyBeacon! Message index: {msgIndex}")
+    msgIndex += 1
 
     time.sleep(2)
