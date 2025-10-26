@@ -47,24 +47,24 @@ def UpdateCameraConfiguration(cameraConfig):
     with open("database/camera-config.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    if "used-camera" in cameraConfig:
-        data["used-camera"] = cameraConfig["used-camera"]
-    if "resolution" in cameraConfig:
-        data["resolution"] = cameraConfig["resolution"]
-    if "auto-focus" in cameraConfig:
-        data["auto-focus"] = cameraConfig["auto-focus"]
-    if "focal-length" in cameraConfig:
-        data["focal-length"] = cameraConfig["focal-length"]
-    if "contrast" in cameraConfig:
-        data["contrast"] = cameraConfig["contrast"]
-    if "saturation" in cameraConfig:
-        data["saturation"] = cameraConfig["saturation"]
-    if "white-balance" in cameraConfig:
-        data["white-balance"] = cameraConfig["white-balance"]
-    if "iso" in cameraConfig:
-        data["iso"] = cameraConfig["iso"]
-    if "shutter-speed" in cameraConfig:
-        data["shutter-speed"] = cameraConfig["shutter-speed"]
+    if "Brightness" in cameraConfig:
+        data["Brightness"] = float(cameraConfig["Brightness"])
+    if "Saturation" in cameraConfig:
+        data["Saturation"] = float(cameraConfig["Saturation"])
+    if "Sharpness" in cameraConfig:
+        data["Sharpness"] = float(cameraConfig["Sharpness"])
+    if "ExposureValue" in cameraConfig:
+        data["ExposureValue"] = float(cameraConfig["ExposureValue"])
+    if "ExposureTime" in cameraConfig:
+        data["ExposureTime"] = int(cameraConfig["ExposureTime"])
+    if "LensPosition" in cameraConfig:
+        data["LensPosition"] = float(cameraConfig["LensPosition"])
+    if "Autofocus" in cameraConfig:
+        data["AfMode"] = int(cameraConfig["Autofocus"])
+    if "AutoExposure" in cameraConfig:
+        data["AeEnable"] = bool(cameraConfig["AutoExposure"])
+    if "HdrMode" in cameraConfig:
+        data["HdrMode"] = int(cameraConfig["HdrMode"])
 
     with open("database/camera-config.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)

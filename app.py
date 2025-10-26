@@ -412,12 +412,18 @@ def last_image():
     print("Sending image: "+image_path)
     return send_file(image_path, mimetype='image/png')
 
+@app.route("/get-commands", methods=["GET"])
+@token_required
+def get_commands():
+    cmd = ""
+
+    with open('./database/commands.txt', 'r') as commands:
+        cmd = commands.read()
+
+    return cmd
+
 
 import os
-
-@app.route("/key")
-def key():
-    return f"<h1>{app.config['SECRET_KEY']}</h1>"
 
 if __name__ == "__main__":
     with open(os.path.join(os.getcwd(),"database/server-config.json"), "r", encoding="utf-8") as f:
