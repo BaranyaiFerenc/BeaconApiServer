@@ -250,11 +250,51 @@ def get_image_count():
     return len(image_files)
 
 
+'''
+Contains the actual commands that the beacon device do.
+List of actions:
+    -take-photo: Creates a photo instantly
+    -reboot: Reboots the device
+    -reload-<component>: Reloads the given component. Component list:
+        -voice: The mumble client
+        -status: The status updater module
+        -camera: The camera cycle
+        -remote: The remote controller module
+    -set-cooler-<cooler mode>: Set the cooler mode, which can be:
+        -normal: Automatic cooling control
+        -muted: Cooling turned off
+    -update: Sends data about the device
+'''
+
+actions = []
+
+@app.route("/get-actions", methods=["GET"])
+@token_required
+def get_actions():
+    global actions
+
+    actions_temp = actions
+    actions = []
+    print("Actions taken")
+    return jsonify(success=True, data=actions_temp)
+
 #######################################
 #
 #   Beacon API Endpoints
 #
 #######################################
+
+@app.route("/set-actions", methods=["POST"])
+@token_required
+def set_actions():
+    global actions
+
+    action_name = request.args.get('action', default = "", type = str)
+
+    actions.append(action_name)
+
+    print(f"Action {action_name} is set")
+    return jsonify(success=True, message=f"Action {action_name} is set"), 200
 
 
 # Send message from the Beacon device
@@ -326,8 +366,9 @@ def send_info():
     coreTemp = data.get('coreTemp') or None
     houseTemp = data.get('houseTemp') or None
     controllerBattery = data.get('controllerBattery') or None
+    latency = data.get('latency') or None
 
-    DeviceManager.UpdateBeaconData(deviceId, batteryLevel=batteryLevel, controllerBattery=controllerBattery, coreTemp=coreTemp, houseTemp=houseTemp)
+    DeviceManager.UpdateBeaconData(deviceId, batteryLevel=batteryLevel, controllerBattery=controllerBattery, coreTemp=coreTemp, houseTemp=houseTemp, latency=latency)
 
     print(f"Beacon data is updated for device ID: {deviceId}.")
 

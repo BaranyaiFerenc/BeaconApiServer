@@ -1,1 +1,1 @@
-{"_default": {"1": {"deviceId": "Beacon_1", "batteryLevel": 100, "controllerBattery": 100, "coreTemp": 51.0, "houseTemp": 26.3, "lastActivity": "2025-10-26T22:40:07.072708"}}}
+{"_default": {"1": {"deviceId": "Beacon_1", "batteryLevel": 100, "controllerBattery": 75, "coreTemp": 47.7, "houseTemp": 27.0, "lastActivity": "2025-10-30T21:29:18.503055", "latency": 2.574920654296875}}}

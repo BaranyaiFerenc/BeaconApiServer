@@ -2,7 +2,7 @@ from tinydb import TinyDB, Query
 import datetime
 import json
 
-def UpdateBeaconData(deviceId, batteryLevel = None, controllerBattery = None, coreTemp = None, houseTemp = None):
+def UpdateBeaconData(deviceId, batteryLevel = None, controllerBattery = None, coreTemp = None, houseTemp = None, latency = None):
     """
     Update the beacon information in the database.
 
@@ -17,7 +17,7 @@ def UpdateBeaconData(deviceId, batteryLevel = None, controllerBattery = None, co
     # Check if the device exists in the database
     if not db.contains(query.deviceId == deviceId):
         # If not, create a new entry
-        db.insert({"deviceId": deviceId, "batteryLevel": batteryLevel, "controllerBattery": controllerBattery, "coreTemp": coreTemp, "houseTemp": houseTemp, "lastActivity": datetime.datetime.now().isoformat()})
+        db.insert({"deviceId": deviceId, "batteryLevel": batteryLevel, "controllerBattery": controllerBattery, "coreTemp": coreTemp, "houseTemp": houseTemp, "latency": latency, "lastActivity": datetime.datetime.now().isoformat()})
         print(f"Device {deviceId} not found in the database. Created a new entry.")
     else:
         # Update the existing device information
@@ -30,6 +30,8 @@ def UpdateBeaconData(deviceId, batteryLevel = None, controllerBattery = None, co
             data["coreTemp"] = coreTemp
         if houseTemp is not None:
             data["houseTemp"] = houseTemp
+        if latency is not None:
+            data["latency"] = latency
 
         data["lastActivity"] = datetime.datetime.now().isoformat()
         
